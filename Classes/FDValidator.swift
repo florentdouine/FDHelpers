@@ -192,7 +192,7 @@ class FDValidator {
     
     //let title = localized("global_error") ?? FDLocalized("global.error")
     let alertController = UIAlertController(title: "", message: message, preferredStyle: UIAlertControllerStyle.Alert)
-    alertController.addAction(UIAlertAction(title: localized("global_ok") ?? FDLocalized("global.ok"), style: UIAlertActionStyle.Default, handler: nil))
+    alertController.addAction(UIAlertAction(title: FDLocalized("global.ok"), style: UIAlertActionStyle.Default, handler: nil))
     
     failed(message, alertController, fieldsInError);
     
