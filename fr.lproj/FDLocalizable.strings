@@ -1,0 +1,20 @@
+/*
+ FDLocalizable.strings
+ iLab
+ 
+ Created by Florent Douine on 27/08/2014.
+ Copyright (c) 2014 Florent Douine. All rights reserved.
+ */
+
+//VALIDATION DES FORMULAIRES
+//le terme %@ fait référence soit au nom du champ, soit à sa valeur
+//le terme %i fait référence à un nombre entier lié à la validation
+"error.required" = "Le champ %@ est requis";
+"error.contain_spaces" = "Le champs %@ doit contenir au moins %i espace";
+"error.less_than" = "Le champ %@ est limité à %i caractères";
+"error.greater_than" = "Le champ %@ doit contenir au moins %i caractères";
+"error.incorrect_name" = "Le champ %@ n'est pas valide, seuls les lettres, espaces et caractères «'» «-» sont autorisés.";
+"error.invalid_name" = "Le champ %@ n'est pas un nom valide";
+"error.invalid_email" = "L'email %@ n'est pas valide";
+
+
